@@ -35,6 +35,7 @@ function Formulario({datosConsulta}) {
                 <select onChange = { handleChange } name = "pais">
                     <option value = "" > Selecciona un Pais </option> 
                     <option value = "US" > EEUU </option> 
+                    <option value = "CL" > Chile </option> 
                     <option value = "MX" > Mexico </option> 
                     <option value = "AR" > Argentina </option> 
                     <option value = "CR" > Costa Rica </option> 
